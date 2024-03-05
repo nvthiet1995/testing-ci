@@ -1,5 +1,5 @@
 # Use OpenJDK 17 as base image
-FROM adoptopenjdk/openjdk17:alpine-slim
+FROM openjdk:17-jdk-slim
 
 # Set working directory
 WORKDIR /app
