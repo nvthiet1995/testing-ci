@@ -1,0 +1,8 @@
+services:
+  demo:
+    image: "nvthiet1995/demo:latest"
+    container_name: demo-ms
+    ports:
+      - "8080:8080"
+    environment:
+      SPRING_APPLICATION_NAME: "demo"
